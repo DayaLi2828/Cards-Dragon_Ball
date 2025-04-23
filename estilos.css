@@ -1,58 +1,55 @@
 body{
-    background-image: url(Fondo_dragon/Dragon-Ball-Daima-Shenron.webp);
-    background-position: top;
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    margin:0;
-    padding: 0;
+    background-image: url(Fondo_dragon/Dragon-Ball-Daima-Shenron.webp); /* Imagen de fondo */
+    background-position: top; /* Posiciona la imagen de fondo en la parte superior */
+    background-size: cover; /* La imagen cubre todo el área disponible */
+    background-attachment: fixed; /* La imagen de fondo se mantiene fija al hacer scroll */
+    background-repeat: no-repeat; /* La imagen no se repite */
+    margin: 0; /* Elimina márgenes por defecto */
+    padding: 0; /* Elimina relleno por defecto */
 }
 
 .carta{
-    margin: 1em;
-    padding: 1em;
-    border-radius: 10px;
-    object-fit: cover;
-    box-sizing: border-box;
-    width: 340px;
-    height: 440px;
-    display: inline-block;
-    text-align: center;
-    background-color: rgba(206, 159, 250, 0.5);
-    display: inline-block;
-    box-shadow: 0 4px 6px rgba(206, 159, 250, 0.5);
+    margin: 1em; /* Añade un margen de 1em alrededor de la carta */
+    padding: 1em; /* Añade un relleno de 1em dentro de la carta */
+    border-radius: 10px; /* Redondea las esquinas de las cartas */
+    object-fit: cover; /* Ajusta el contenido dentro de la carta sin distorsionarlo */
+    box-sizing: border-box; /* Incluye padding y borde en el cálculo del tamaño total */
+    width: 340px; /* Establece el ancho de la carta */
+    height: 440px; /* Establece la altura de la carta */
+    display: inline-block; /* Hace que las cartas se alineen horizontalmente */
+    text-align: center; /* Centra el texto dentro de la carta */
+    background-color: rgba(206, 159, 250, 0.5); /* Color de fondo semitransparente */
+    box-shadow: 0 4px 6px rgba(206, 159, 250, 0.5); /* Sombra sutil alrededor de la carta */
 }
 
 img{
-    display: block;
-    margin: 0 auto;
-    width: 100%;
-    height: 90%;
-    object-fit: contain;
-    border-radius: 5px;
-
+    display: block; /* Hace que la imagen se comporte como un bloque */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    width: 100%; /* La imagen ocupa todo el ancho del contenedor */
+    height: 90%; /* La imagen ocupa el 90% de la altura del contenedor */
+    object-fit: contain; /* Ajusta la imagen sin distorsionarla */
+    border-radius: 5px; /* Redondea las esquinas de la imagen */
 }
 
 h2{
-    text-transform: capitalize;
-    letter-spacing:1px;
-    text-shadow:2px 2px 9px rgb(0,0,0);
-    font-family: "Emilys Candy", serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1.5rem;
+    text-transform: capitalize; /* Convierte la primera letra de cada palabra en mayúscula */
+    letter-spacing: 1px; /* Añade espacio entre las letras */
+    text-shadow: 2px 2px 9px rgb(0, 0, 0); /* Sombra al texto */
+    font-family: "Emilys Candy", serif; /* Establece la fuente personalizada */
+    font-weight: 400; /* Peso normal de la fuente */
+    font-style: normal; /* No cursiva */
+    font-size: 1.5rem; /* Tamaño de la fuente */
 }
 
-/*.adicional{
-    margin: 2em;
-    padding: 1em;
-    border-radius: 10px;
-    box-sizing: border-box;
+/*
+.adicional{
+
+    padding: 1em; 
+    border-radius: 10px; 
+    box-sizing: border-box; 
     max-width: 30%;
-    height: 70%;
-    background-color: rgba(206, 159, 250, 0.5);
-    display: inline-block;
-    box-shadow: 0 4px 6px rgba(206, 159, 250, 0.5);
+    height: 70%; 
+    background-color: rgba(206, 159, 250, 0.5); 
+    box-shadow: 0 4px 6px rgba(206, 159, 250, 0.5); 
     object-fit: contain;
 }*/
-
